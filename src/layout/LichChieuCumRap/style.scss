@@ -1,0 +1,45 @@
+.divLichChieuCumRap{
+    background: #f2f2f2;
+    .lich-chieu-cum-rap {
+    .tab-container {
+        .ant-tabs-left {
+            .ant-tabs-nav {
+                .ant-tabs-tab {
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 10px;
+                    padding: 10px;
+
+                    .tab-content {
+                        display: flex;
+                        align-items: center;
+
+                        .logo {
+                            width: 50px;
+                            height: 50px;
+                            margin-right: 10px;
+                        }
+
+                        .ten-cum-rap {
+                            font-weight: bold;
+                        }
+                    }
+
+                    &.ant-tabs-tab-active {
+                        background-color: #ffd700; /* Màu sắc của tab khi được chọn */
+                    }
+                }
+            }
+        }
+
+        .ant-tabs-nav-list {
+            .ant-tabs-tab {
+                height: 60px; /* Điều chỉnh chiều cao của tab */
+            }
+        }
+
+        
+    }
+}
+}
+

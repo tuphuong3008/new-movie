@@ -1,0 +1,20 @@
+.movie__item {
+    .infoMovie {
+        display: block;
+    }
+    .muaVe {
+        display: none;
+    }
+    &:hover {
+        cursor: pointer;
+        .infoMovie {
+            display: none;
+        }
+        .muaVe {
+            display: block;
+        }
+    }
+}
+
+
+

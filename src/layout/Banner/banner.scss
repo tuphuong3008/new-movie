@@ -1,0 +1,51 @@
+.carousel__banner {
+    background: #070707;
+  .slick-next {
+    right: 30px;
+    color: white;
+    font-size: 16px;
+    &::before {
+      display: none;
+    }
+  }
+  .slick-prev {
+    left: 30px;
+    color: white;
+    font-size: 16px;
+    z-index: 2;
+
+    &::before {
+      display: none;
+    }
+  }
+  .slick-dots li {
+    margin: 0 5px; // Khoảng cách giữa các dots
+  }
+  .slick-dots li button {
+    width: 10px; // Kích thước của dot
+    height: 10px;
+    border-radius: 50%; // Hình dạng của dot là hình tròn
+    background-color: #ccc; // Màu sắc của dot khi không được chọn
+    transition: background-color 0.3s ease; // Hiệu ứng chuyển đổi màu
+  }
+  .slick-dots li.slick-active button {
+    background-color: #ff0000; 
+  }
+  .ant-carousel .slick-slide {
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: auto;
+      max-height: 100%;
+      max-width: 100%;
+      vertical-align: middle;
+      object-fit: contain;
+    }
+    
+  }
+  
+}
